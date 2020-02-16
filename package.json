@@ -1,8 +1,16 @@
 {
-  "name": "bulter-cli",
-  "version": "1.0.0",
+  "name": "bulter-defaults-cli",
+  "version": "0.0.1",
   "description": "Cli to create prettier config and eslint rules based on your choice of framework",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "keywords": [
+    "prettier",
+    "eslint",
+    "jsconfig",
+    "react",
+    "react-native"
+  ],
   "scripts": {
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,13 +19,12 @@
     "type": "git",
     "url": "git+https://github.com/SomtoUgeh/bulter-cli.git"
   },
-  "keywords": [],
   "author": "Somtochukwu Medua-Ugeh",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SomtoUgeh/bulter-cli/issues"
   },
-  "homepage": "https://github.com/SomtoUgeh/bulter-cli#readme",
+  "homepage": "https://github.com/SomtoUgeh/bulter-cli",
   "dependencies": {
     "inquirer": "^7.0.4"
   }
