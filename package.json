@@ -1,5 +1,5 @@
 {
-  "name": "bulters-cli",
+  "name": "bulter-cli",
   "version": "0.0.6",
   "description": "Cli to create prettier config and eslint rules based on your choice of framework",
   "main": "src/index.js",
